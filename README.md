@@ -1,7 +1,8 @@
-## MyMVC
-Teste com integração continua
+### MyMVC
+Projeto em MVC com integração continua(AppVeyor) para Azure.
+http://testemymvc.azurewebsites.net/
 
-#### Status da Contrução: 
+#### Status da Contrução (AppVeyor): 
 [![Build status](https://ci.appveyor.com/api/projects/status/pm68wxtxmudjiml1?svg=true)](https://ci.appveyor.com/project/JonatasLubec/MyMVC)
 
 #### Contribuições
