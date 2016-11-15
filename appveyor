@@ -1,8 +1,8 @@
-configuration: Release
+configuration: Debug
 
 # restore NuGet packages before running MSBuild
 before_build
-  nuget restore C:\projects\mymvc\MyMVC.sln
+  nuget restore
   
 # package Web Application project for Web Deploy
 build:
