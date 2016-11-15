@@ -5,6 +5,6 @@ before_build
   - nuget restore
   
 # package Web Application project for Web Deploy
-build:
-  verbosity: minimal
-  publish_wap: true
+#build:
+#  verbosity: minimal
+#  publish_wap: true
