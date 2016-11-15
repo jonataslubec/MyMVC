@@ -16,7 +16,7 @@ namespace MyMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Aqui vamos adicionar a descrição do nosso site.";
+            ViewBag.Message = "Site em MVC para teste de Integração continua AppVeyor";
 
             return View();
         }
