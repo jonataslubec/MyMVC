@@ -1,5 +1,5 @@
 ### MyMVC
-* Projeto em MVC com integração continua(AppVeyor) para Azure.
+* Projeto em MVC com integração continua(AppVeyor) para o Azure.
 * Segue link: http://testemymvc.azurewebsites.net/
 
 #### Status da Contrução: 
