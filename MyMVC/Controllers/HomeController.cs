@@ -16,7 +16,7 @@ namespace MyMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Aqui vamos adicionar a descrição da nossa página.";
+            ViewBag.Message = "Aqui vamos adicionar a descrição do nosso site.";
 
             return View();
         }
@@ -25,7 +25,7 @@ namespace MyMVC.Controllers
         {
             usuario usu = new usuario {usu_id = 1, usu_nome = "Jonatas Lubec" };
 
-            ViewBag.Message = "Segue o Contato de " + usu.usu_nome;
+            ViewBag.Message = "Segue Contato de " + usu.usu_nome;
 
             return View();
         }
