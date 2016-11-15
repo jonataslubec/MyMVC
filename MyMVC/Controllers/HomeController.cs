@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyMVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -22,7 +23,9 @@ namespace MyMVC.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Segue meu Contato.";
+            usuario usu = new usuario {usu_id = 1, usu_nome = "Jonatas Lubec" };
+
+            ViewBag.Message = "Segue o Contato de " + usu.usu_nome;
 
             return View();
         }
