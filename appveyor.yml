@@ -8,3 +8,12 @@ before_build:
 build:
   verbosity: minimal
   publish_wap: true
+
+# deploy site on Azure
+environment:
+  site_to_deploy: MyMVC
+
+deploy:
+  - provider: Environment
+    name: MyMVC
+    site_name: $(site_to_deploy)
