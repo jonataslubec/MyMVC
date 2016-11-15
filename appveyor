@@ -2,7 +2,7 @@ configuration: Debug
 
 # restore NuGet packages before running MSBuild
 before_build
-  nuget restore
+  -reinstall Update-Package
   
 # package Web Application project for Web Deploy
 build:
